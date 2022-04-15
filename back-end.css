@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(205, 183, 214);
+}
+nav {
+    display: flex;
+    background-color: #942599;
+    height: 60px;
+   
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    margin-left: 80px;
+    font-size: 25px;
+    color: rgb(211, 211, 211);
+    font-family: 'Lobster Two', cursive;
+}
+
+a:hover {
+    color: #6c0fce;
+    cursor: pointer;
+}
+
+form {
+    padding: 20px
+}
+
+#name {
+    margin-bottom: 5px;
+}
+
+#dag {
+    margin-bottom: 5px;
+}
+
+.button {
+    font-size: 15px;
+    margin: 5px
+}
