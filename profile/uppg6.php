@@ -19,7 +19,7 @@
     ?>
 </form>
 </article>
-<script>   //Gömmer inloggningen från profilsidan om man redan är inloggad.
+<script>   //Gömmer inloggningen från profilsidan om man redan är inloggad. Fungerar inte, vet inte var jag ska lägga scriptet for att det ska fungera.
     let login = '<?php echo $loggedin?>';
     if (login=== true) {
         document.getElementById("login").style.display = "none"
